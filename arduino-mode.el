@@ -107,7 +107,7 @@ Each list item should be a regexp matching a single identifier." :group 'arduino
                   (cons "Arduino" (c-lang-const c-mode-menu arduino)))
 
 ;;;###autoload
-(add-to-list 'auto-mode-alist '("\\.pde\\'" . arduino-mode))
+;;(add-to-list 'auto-mode-alist '("\\.pde\\'" . arduino-mode))
 (add-to-list 'auto-mode-alist '("\\.ino\\'" . arduino-mode))
 
 ;;;###autoload
