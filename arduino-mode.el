@@ -55,12 +55,12 @@
                     "min" "max" "abs" "constrain" "map" "pow" "sq" "sqrt"       ; Math
                     "sin" "cos" "tan"                                           ; Trigonometry
                     "randomSeed" "random"                                       ; Random Numbers
-		    "lowByte" "highByte" "bitRead" "bitWrite" "bitSet"          ; Bits and Bytes
-		    "bitClear" "bit"
+                    "lowByte" "highByte" "bitRead" "bitWrite" "bitSet"          ; Bits and Bytes
+                    "bitClear" "bit"
                     "attachInterrupt" "detachInterrupt"                         ; External Interrupts
                     "interrupts" "noInterrupts"                                 ; Interrupts
                     "begin" "end" "available" "read" "flush" "print" "println"  ; Serial Communication
-		    "write" "peek")
+                    "write" "peek")
                   (c-lang-const c-simple-stmt-kwds)))
 
 (c-lang-defconst c-primary-expr-kwds
